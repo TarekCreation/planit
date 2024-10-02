@@ -1,0 +1,34 @@
+name: planit
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  cloud_firestore: ^5.4.2
+  firebase_auth: ^5.2.1
+  firebase_core: ^3.4.1
+  firebase_database: ^11.1.3
+  firebase_storage: ^12.3.2
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  google_fonts: ^6.2.1
+  google_sign_in: ^6.2.1
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.2
+  video_player: ^2.9.1
+  youtube_player_flutter: ^9.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
